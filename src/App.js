@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Test from './page/test'
+import Main from './page/Main'
+import MenuReg from './page/MenuReg'
+import MenuChoice from './page/MenuChoice'
+import UserChoice from './page/UserChoice'
+import MenuCompleted from './page/MenuCompleted'
+import MenuRegList from './page/MenuRegList'
+import MenuRegDetail from './page/MenuRegDetail'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Route exact path="/" component={Main} />
+        <Route path="/test" component={Test} />
+        <Route path="/menuReg" component={MenuReg} />
+        <Route path="/menuChoice" component={MenuChoice} />
+        <Route path="/userChoice" component={UserChoice} />
+        <Route path="/menuCompleted" component={MenuCompleted} />
+        <Route path="/menuRegList" component={MenuRegList} />
+        <Route path="/menuRegDetail" component={MenuRegDetail} />
+      </Router>
+    </>
   );
 }
 
