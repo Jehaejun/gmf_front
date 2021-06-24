@@ -33,7 +33,7 @@ img {max-width:100%; vertical-align:top;}
 a {/* display:inline-block;  */color:#0d0d0d; text-decoration:none; cursor:pointer;}
 i, em, address {font-style:normal; font-weight:normal;}
 
-.ico1 {background:url(../images/ico_guide_view_on.png); background-repeat:no-repeat}
+.ico1 {background:url(../images/btn_check_on.png); background-repeat:no-repeat}
 .ico2 {background:url(../images/ico_guide_view_dis.png); background-repeat:no-repeat}
 .ico3 {background:url(../images/ico_guide_view_hv.png); background-repeat:no-repeat}
 
@@ -96,7 +96,7 @@ input[type=file] {display: none;}
 .btn.typeA {background:#5e6ae6;}
 .btn.typeB {background:#454545;}
 .btn.typeC {background:#e96065;}
-.btn.typeD {background:#F7E600;}
+.btn.typeD {background:#F7E600; color: black !important;}
 
 
 /* contents button */

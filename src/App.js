@@ -6,6 +6,8 @@ import UserChoice from './page/UserChoice'
 import MenuCompleted from './page/MenuCompleted'
 import MenuRegList from './page/MenuRegList'
 import MenuRegDetail from './page/MenuRegDetail'
+import Login from './view/user/Login'
+import SignUp from './view/user/SignUp'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="/menuCompleted" component={MenuCompleted} />
         <Route path="/menuRegList" component={MenuRegList} />
         <Route path="/menuRegDetail" component={MenuRegDetail} />
+        <Route path="/user/login" component={Login} />
+        <Route path="/user/signUp" component={SignUp} />
       </Router>
     </>
   );

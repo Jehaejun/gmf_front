@@ -84,7 +84,7 @@
 .input_btn2 .btn_samll {position:absolute; top:6px; right:6px; width:38px; height:38px; line-height:38px; font-size:13px; color:#fff; background:#414141; border-radius:5px;}
 
 .tel_certi {font-size:0;}
-.tel_certi .select_box {display:inline-block; width:120px;}
+.tel_certi .select_box {display:inline-block; /* width:120px; */}
 .tel_certi .input_btn {width:calc(100% - 119px); width:-webkit-calc(100% - 119px); margin-left:-1px;}
 .tel_certi .input_btn2 {width:40%; margin-left:-1px;}
 .tel_certi .input2 {width:60%; height:50px; padding:0 18px; color:#0d0d0d; border:1px solid #ccc; background:#fff;}
@@ -186,7 +186,9 @@
 
 /* 아이콘 + 메세지 */
 .message_wrap {top:0; left:0; height:100%; text-align:center;}
-.message_wrap:after {display:inline-block; height:100%; vertical-align:middle; content:'';}
+.message_wrap:after {display:inline-block; height:100%; vertical-align:middle; content:'';} 
+
+.message_wrap2 {top:0; left:0; height:100%; text-align:center;}
 
 .ic_message {display:inline-block; padding:0 20px; padding-top:70px; vertical-align:middle;}
 .ic_message.mg {margin:40px 0;}

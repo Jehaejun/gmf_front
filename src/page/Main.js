@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+import ico1 from '../images/ic_main_card_register.png'
+import ico2 from '../images/ic_main_card_apply.png'
+import ico3 from '../images/ic_main_buy.png'
+import ico4 from '../images/ic_main_buy_history.png'
 
 const Main = () => {
     return (
@@ -19,7 +23,8 @@ const Main = () => {
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                     </div>
-                                    <div className="card_img ico1">
+                                    <div className="card_img">
+                                        <img src={ico1}></img>
                                         {/* <img src="../images/img_card_s_gh.png" alt="김해사랑카드" /> */}
                                     </div>
                                 </div>
@@ -33,7 +38,8 @@ const Main = () => {
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                     </div>
-                                    <div className="card_img ico2">
+                                    <div className="card_img">
+                                        <img src={ico2}></img>
                                         {/* <img src="../images/img_card_s_gh.png" alt="김해사랑카드" /> */}
                                     </div>
                                 </div>
@@ -47,7 +53,8 @@ const Main = () => {
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                     </div>
-                                    <div className="card_img ico3">
+                                    <div className="card_img">
+                                        <img src={ico3}></img>
                                         {/*  <img src="../images/img_card_s_gh.png" alt="김해사랑카드" /> */}
                                     </div>
                                 </div>
@@ -61,7 +68,8 @@ const Main = () => {
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                         <p>Admin에서 등록한 카드 상세 정보가 노출됩니다</p>
                                     </div>
-                                    <div className="card_img ico3">
+                                    <div className="card_img">
+                                        <img src={ico4}></img>
                                         {/*  <img src="../images/img_card_s_gh.png" alt="김해사랑카드" /> */}
                                     </div>
                                 </div>
