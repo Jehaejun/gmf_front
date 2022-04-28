@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react'
+import MenuSelectCard from '../components/Card/MenuSelect';
 import { Link } from 'react-router-dom';
 
 
@@ -128,14 +129,17 @@ const MenuChoice = ({ history }) => {
             <div className="card_info_area">
                 <img className="mt0" src="http://10.254.241.154/images/tt.jpg" alt="창원사랑카드" />
             </div>
-            <div className="container2">
+            <div className="container2 mgb15">
                 {menus.map((v, i) => (
-                    <div className="pr_info mgb3 mgb15 mgt10" >
-                        <dl className="pr_list clearfix">
-                            <dt>{v.name}</dt>
-                            <dd>{v.price}원<a className="pr_btn" onClick={() => updateFieldChanged(v)}>선택</a></dd>
-                        </dl>
-                    </div>
+                    <MenuSelectCard name={v.name} price={v.price} onClick={() => updateFieldChanged(v)}>
+                    </MenuSelectCard>
+
+                    /*   <div className="pr_info mgb7">
+                           <dl className="pr_list clearfix">
+                               <dt>{v.name}</dt>
+                               <dd>{v.price}원<a className="pr_btn" onClick={() => updateFieldChanged(v)}>선택</a></dd>
+                           </dl>
+                       </div>*/
                 ))}
             </div>
             <div className="grey_bg move_ct mgb104">

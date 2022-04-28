@@ -11,7 +11,7 @@ const Main = () => {
                 <h1>메인</h1>
                 <Link to="/" className="btn home right" href="">홈</Link>
             </div>
-            <div className="grey_area container">
+            <div className="grey_area pdr15 pdl15">
                 <div className="mgb12"></div>
                 <div>
                     <ul className="card_list">

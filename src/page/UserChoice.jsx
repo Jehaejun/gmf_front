@@ -69,7 +69,7 @@ const UserChoice = ({ history, location }) => {
                     <div className="ct_item mt0">
                         <div className="ct_box">
                             <div className="tel_certi">
-                                <select className="select_box">
+                                <select className="select_box2">
                                     <option value="">전체</option>
                                 </select>
                                 <div className="input_btn">

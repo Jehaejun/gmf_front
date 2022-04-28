@@ -85,6 +85,7 @@
 
 .tel_certi {font-size:0;}
 .tel_certi .select_box {display:inline-block; /* width:120px; */}
+.tel_certi .select_box2 {display:inline-block; width:120px;}
 .tel_certi .input_btn {width:calc(100% - 119px); width:-webkit-calc(100% - 119px); margin-left:-1px;}
 .tel_certi .input_btn2 {width:40%; margin-left:-1px;}
 .tel_certi .input2 {width:60%; height:50px; padding:0 18px; color:#0d0d0d; border:1px solid #ccc; background:#fff;}
@@ -642,7 +643,7 @@ textarea::placeholder {color:#b3b3b3; line-height: 23px; font-size:15px;}
 .mer_bon{position: absolute; bottom:0; width:100%;}
 
 /*  개인정보관리 */
-.pr_info{background: #fff; border-radius: 5px; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.05); margin-top:10px; padding:25px 25px;}
+.pr_info{background: #fff; border-radius: 5px; box-shadow: 2px 2px 2px 2px rgba(0,0,0,.05); padding:25px 25px;}
 .pr_info .pr_list dt,.pr_info .pr_list dd{font-size:15px; line-height:18px; margin-top:8px;}
 .pr_info .pr_list:first-child dt,.pr_info .pr_list:first-child dd{margin-top:0;}
 .pr_info .pr_list:last-child dt{vertical-align: middle; line-height: 33px;}
